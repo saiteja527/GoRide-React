@@ -1,0 +1,52 @@
+.navbaruser{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    padding: 10px  60px;
+    background: black;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.navbaruser img{
+    width: 100px;
+    cursor: pointer;
+}
+.navbaruser .signin{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 30px;
+    color: white;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.navbaruser .signin:hover{
+    background-color: grey;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: .3s;
+}
+.navbaruser .signup{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 30px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+}
+.navbaruser .signup:hover{
+    background: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: .3s;
+}

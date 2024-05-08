@@ -1,0 +1,43 @@
+
+.maskarea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    background-color: rgb(255, 255, 255);
+}
+.maskarea .maskareaimg img{
+    opacity: 0.6;
+}
+.maskarea .maskarea-content{
+    position: relative;
+}
+.maskarea .maskarea-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    z-index: 1;
+    left: 12%;
+    top: 50px;
+    gap: 30px;
+}
+.maskarea .maskarea-contents h2{
+    font-size: 40px;
+}
+.maskarea .maskarea-contents p{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(54, 53, 53);
+}
+.maskarea .maskarea-btn button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+}

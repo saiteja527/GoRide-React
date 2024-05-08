@@ -1,0 +1,86 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color:#000;
+}
+.hero .hero-right img{
+    border-radius: 20px;
+    margin-left: 250px;
+    animation: fadein 1s ease-in-out;
+}
+.hero .hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.hero .left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    transition: .5s;
+    animation: fadein 3s ease-out;
+    margin-left: 100px;
+}
+.hero .hero-header{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+.hero .hero-header h2{
+    color: #fff;
+    font-size: 60px;
+    font-size: 500;
+    max-width: 400px;
+}
+.hero .hero-header p{
+    color: #fff;
+    font-size: 24px;
+    word-spacing: 2px;
+}
+.hero .hero-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+.hero .hero-middle{
+    position: relative;
+}
+.hero .hero-middle input{
+    display: block;
+    margin: 0;
+    padding: 0.8rem 1.6rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    font-size: 18px;
+    background-color: #d4dae3;
+}
+.hero .hero-middle input::placeholder{
+    color: #6e7274;
+}
+.hero .hero-middle input:focus{
+    outline: none;
+    box-shadow: 2px 3px 4px rgb(120, 113, 113);
+}
+.hero .request-btn button{
+    padding: 10px 30px;
+    font-size: 24px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+}
+.hero .request-btn button:hover{
+    transform: scale(1.05);
+    transition: .3s;
+}

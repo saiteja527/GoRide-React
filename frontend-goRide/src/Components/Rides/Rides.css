@@ -1,0 +1,54 @@
+.rides{
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+}
+.rides .ride-header{
+    display: flex;
+    align-items: start;
+    margin: 0px 180px;
+    padding: 50px 0px 0px 0px;
+}
+.rides .ride-header h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.rides .rides-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 70px;
+    padding-left: 30px;
+}
+.rides .ride-auto,.ride-moto,.ride-car{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.rides .ridecnt{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rides .ridecnt h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.rides .ridecnt p{
+    max-width: 250px;
+    font-size: 16px;
+    color: grey;
+    font-weight: 500;
+    line-height: 25px;
+}
+.rides .arrowimg img{
+    width: 20px;
+}
+.rides .arrowimg{
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}

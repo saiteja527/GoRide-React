@@ -1,0 +1,46 @@
+.mytripdriver{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tripdriver{
+    max-width:700px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.tripdriver h2{
+    margin-left: 20px;
+    font-size: 32px;
+    display: block;
+    margin-top: 50px;
+    border: 3px solid #ccc;
+    padding: 10px 30px;
+    border-radius: 50%;
+    background-image: url("https://img.freepik.com/free-vector/checking-body-temperature-concept_23-2148520722.jpg?t=st=1715137764~exp=1715141364~hmac=5e2e12542fd890cdd826eb48fa01ab5f9fc9841cab316b46bf2aed31fd32985a&w=996");
+}
+.tripdriver .left-content{
+    display: flex;
+    max-width: 600px;
+    height: 150px;
+    gap: 30px;
+    border: 2px solid #ccc;
+    padding: 30px 40px;
+    margin: 20px;
+    border-radius: 10px;
+    background-image: url("https://img.freepik.com/free-vector/checking-body-temperature-concept_23-2148520722.jpg?t=st=1715137764~exp=1715141364~hmac=5e2e12542fd890cdd826eb48fa01ab5f9fc9841cab316b46bf2aed31fd32985a&w=996");
+}
+.tripdriver .content1 p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.tripdriver .content p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}

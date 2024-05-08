@@ -1,0 +1,156 @@
+.userui{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    gap: 60px;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    grid-template-columns: 1fr 1fr;
+}
+.userui .left-container{
+    width: 350px;
+    height: auto;
+    background: transparent;
+    border: 2px solid rgb(208, 208, 208);
+    border-radius: 20px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+    margin-left: 50px;
+}
+.left-container .header h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.left-container .userinputs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.left-container .pickup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    position: relative;
+}
+.left-container .destin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.left-container .loc{
+    position: absolute;
+    left: 270px;
+}
+.left-container .pickup input{
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    background-color: #dedede;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.left-container .pickup input::placeholder{
+    color: #b5b3b3;
+}
+.left-container .destin input{
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    background-color: #dedede;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.left-container .destin input::placeholder{
+    color: #b5b3b3;
+}
+.left-container .searchbtn button{
+    padding: 10px 115px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #b5b3b3;
+    border: none;
+    border-radius: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+.left-container .searchbtn button:hover{
+    color: black;
+    transition: .3s;
+    transform: scale(1.05);
+}
+.right-container{
+    width: 900px;
+    height: 600px;
+    background-color: #b5b3b3;
+    margin-top: 70px;
+    margin-right: 20px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.left-container1{
+    display: flex;
+    width: 400px;
+    height: 150px;
+    background-color: transparent;
+    padding: 30px 30px;
+    border: 2px solid #b5b3b3;
+    gap: 50px;
+    overflow-x: scroll;
+    margin-left: 50px;
+    border-radius: 20px;
+    scroll-snap-type: x mandatory;
+}
+.left-container1 .left-cnt{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+    scroll-snap-align: center;
+}
+.left-container1 .left-cnt .cnt{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 3px;
+}
+.left-container1 .left-cnt .cnt h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+.left-container1 .left-cnt .cnt p{
+    font-size: 12px;
+    color: #b5b3b3;
+    min-width: 70px;
+}
+.left-container1 .left-cnt .cnt li{
+    font-size: 16px;
+    color: #656161;
+    list-style:none ;
+}
+.left-container1 .left-cnt .money{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.left-container1 .left-cnt .money button{
+    width: 90px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
