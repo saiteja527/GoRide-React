@@ -10,6 +10,7 @@
     border-radius: 20px;
     margin-left: 250px;
     animation: fadein 1s ease-in-out;
+    filter:drop-shadow(1px 1px 10px gold)
 }
 .hero .hero-container{
     display: flex;
